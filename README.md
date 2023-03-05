@@ -34,32 +34,32 @@ After periodic execution, Algorithm sends the log file to the specified email ad
   schedule.Scheduler class 
   
   
-  schedule.every(interval=1) 
+  - schedule.every(interval=1) 
   Calls every on the default scheduler instance. 
   Schedule a new periodic job. 
   
   
   
-  schedule.run_pending() 
+  - schedule.run_pending() 
   Calls run_pending on the default scheduler instance. 
   Run all jobs that are scheduled to run. 
   
   
   
-  schedule.run _all(delay seconds=0) 
+  - schedule.run _all(delay seconds=0) 
   Calls run_all on the default scheduler instance. 
   Run all jobs regardless if they are scheduled to run or not.
   
   
-  schedule.idle seconds() 
+  - schedule.idle seconds() 
   Calls idle_seconds on the default scheduler instance. 
   
   
-  schedule.next run() 
+  - schedule.next run() 
   Calls next_run on the default scheduler instance. 
   Datetime when the next job should run. 
   
   
-  schedule.cancel jobiob()
+  - schedule.cancel jobiob()
   Calls cancel_job on the default scheduler instance. 
   Delete a scheduled job. 

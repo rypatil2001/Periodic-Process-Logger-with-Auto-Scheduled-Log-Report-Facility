@@ -31,9 +31,7 @@ After periodic execution, Algorithm sends the log file to the specified email ad
   
   ### Classes and methods from schedule library 
   
-  schedule.Scheduler class 
-  
-  
+ 
   - schedule.every(interval=1) 
   Calls every on the default scheduler instance. 
   Schedule a new periodic job. 
@@ -51,15 +49,21 @@ After periodic execution, Algorithm sends the log file to the specified email ad
   Run all jobs regardless if they are scheduled to run or not.
   
   
-  - schedule.idle seconds() 
-  Calls idle_seconds on the default scheduler instance. 
+
   
   
-  - schedule.next run() 
-  Calls next_run on the default scheduler instance. 
-  Datetime when the next job should run. 
+# Brief Summary
+### This script is used to create a log of all running processes and send it to a specific email address. It runs as a scheduled task and can be set to run every specified number of minutes using command-line arguments.
+
+The main() function is the entry point of the script. It checks the number of command-line arguments and prints usage information if necessary. It also initializes the scheduled task using the schedule library.
+
+The ProcessLog() function creates a log file of all running processes and saves it in a specified directory. It uses the psutil library to get information about the running processes. The log file is created with a unique timestamp so that multiple log files can be created without overwriting each other. If an internet connection is available, the log file is sent as an attachment to a specified email address using the smtplib library.
+
+The is_connected() function checks if an internet connection is available by trying to connect to www.google.com. If the connection is successful, it returns True, otherwise it returns False.
+
+The MailSender() function sends an email with the log file attached using the smtplib library. It takes the log file name and timestamp as arguments and uses them to construct the email message. The sender email, receiver email, and password are hardcoded in the function, so they need to be changed to match the actual email addresses and password used.
+
+#### Overall, this script provides a useful way to monitor running processes on a computer and receive updates via email. It could be useful for system administrators or anyone who needs to keep track of the processes running on their computer.
   
   
-  - schedule.cancel jobiob()
-  Calls cancel_job on the default scheduler instance. 
-  Delete a scheduled job. 
+  

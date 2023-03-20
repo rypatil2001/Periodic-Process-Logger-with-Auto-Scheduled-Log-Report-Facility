@@ -66,6 +66,7 @@ The MailSender() function sends an email with the log file attached using the sm
 #### Overall, this script provides a useful way to monitor running processes on a computer and receive updates via email. It could be useful for system administrators or anyone who needs to keep track of the processes running on their computer.
   
  ## For Testing We have Set the Frequency to 1 Minute (Log File Logger will run every 1 Minute)
+ ## Application Accepts inputs through COMMAND LINE ARGUMENTS IN TERMINAL
   
  # Usage (Terminal): 
 ![ComandLineArguments](https://user-images.githubusercontent.com/123350287/226370155-e1cfe886-aecb-43c0-b961-fc16a2bebb8e.JPG)

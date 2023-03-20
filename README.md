@@ -65,5 +65,37 @@ The MailSender() function sends an email with the log file attached using the sm
 
 #### Overall, this script provides a useful way to monitor running processes on a computer and receive updates via email. It could be useful for system administrators or anyone who needs to keep track of the processes running on their computer.
   
+ ## For Testing We have Set the Frequency to 1 Minute (Log File Logger will run every 1 Minute)
   
-  
+ # Usage (Terminal): 
+![ComandLineArguments](https://user-images.githubusercontent.com/123350287/226370155-e1cfe886-aecb-43c0-b961-fc16a2bebb8e.JPG)
+
+
+# Running Process
+
+![created](https://user-images.githubusercontent.com/123350287/226372531-135d966f-047d-499b-ad0c-512ae2f85a5d.JPG)
+
+# Running Processes at frequency of 1 Minute along with the timeStamp in Filename
+![Terminalop](https://user-images.githubusercontent.com/123350287/226375752-baa09655-09aa-4941-b93c-8819230f5592.JPG)
+
+
+# LogFile Saved in specified Bucket (Directory)
+![Directory1](https://user-images.githubusercontent.com/123350287/226375907-f0ae11cc-226b-43cd-8d10-f3657dfb6715.JPG)
+
+# Log Files created every Minute Inside Log_File_Bucket Directory
+![Bucketlogs](https://user-images.githubusercontent.com/123350287/226377355-751598d2-059f-4314-9cd7-070821ee4301.JPG)
+
+# Inside Log File 
+
+![LogFIleInside](https://user-images.githubusercontent.com/123350287/226378474-9a2d4668-707e-475e-bc0a-c111aa0e0b39.JPG)
+
+# Mails
+
+![MailsIn](https://user-images.githubusercontent.com/123350287/226378963-e66bfc9c-23f4-4fe1-8059-8b0b2bed8c25.JPG)
+
+
+# Inside Mail
+
+![inside Mail](https://user-images.githubusercontent.com/123350287/226380149-41ba9614-27a4-48ae-b2ba-9ed1856458aa.JPG)
+
+#                                                              -Raj Patil
